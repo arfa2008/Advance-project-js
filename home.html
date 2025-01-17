@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Face Detection with Timestamp and Name</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="face-api.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome to Face Recognition</h2>
+    <p>Your face recognition service is now active!</p>
+    <!-- Video element -->
+    <video id="video" width="600" height="500" autoplay=""></video>
+    <!-- Name Input Field -->
+    <div class="input-container">
+      <input type="text" id="nameInput" placeholder="Enter name" />
+    </div>
+
+    <!-- Button to Show Name with Timestamp -->
+    <div class="button-container">
+        <!-- <button id="notifyButton">Click Me</button> -->
+        <button id="captureButton">Capture Image</button>
+    </div>
+</div>
+
+    <!-- Area to display the notification -->
+    <div id="notification" class="notification"></div>
+
+    <!-- Display captured images and their timestamps -->
+    <div id="capturedData" class="captured-data"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
