@@ -14,7 +14,7 @@ body {
 
 /* Navbar Styles */
 header {
-    background: #241f30cf;
+    background: #241f30;
     color: white;
     padding: 1rem 0;
     position: sticky;
@@ -112,7 +112,7 @@ header h1 {
 
 /* Footer Styles */
 footer {
-    background:#241f30cf;
+    background:#241f30;
     color: white;
     text-align: center;
     padding: 1rem 0;
