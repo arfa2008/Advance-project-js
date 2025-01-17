@@ -78,6 +78,7 @@ video.addEventListener("play", () => {
 // Capture image and store data with timestamp when button is clicked
 captureButton.addEventListener("click", () => {
   const now = new Date();
+<<<<<<< HEAD
   const timestamp = now.toLocaleString("en-US", {
     hour12: true, // 12-hour format with AM/PM
     weekday: "short", // Optional: Shows the day of the week (e.g., "Mon")
@@ -89,6 +90,9 @@ captureButton.addEventListener("click", () => {
     second: "2-digit", // 2 digits for seconds (e.g., 03, 30, 59)
   });
 
+=======
+  const timestamp = now.toLocaleString();
+>>>>>>> b0a1fa49dd4dc7976546c3fc3c1d85338b3c63ad
   const name = nameInput.value.trim() || "Unknown";
 
   // Capture the image from the video
@@ -134,7 +138,11 @@ function displayCapturedData() {
     deleteButton.classList.add("delete-button");
     deleteButton.addEventListener("click", () => deleteCapturedData(index));
 
+<<<<<<< HEAD
     itemDiv.innerHTML = ` 
+=======
+    itemDiv.innerHTML = `
+>>>>>>> b0a1fa49dd4dc7976546c3fc3c1d85338b3c63ad
       <strong>Entry ${index + 1}</strong><br>
       Name: ${data.name} <br>
       Timestamp: ${data.timestamp}

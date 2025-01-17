@@ -2,13 +2,26 @@
 <html lang="en">
 
 <head>
+<<<<<<< HEAD
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Face Recognition</title>
     <link rel="stylesheet" href="style1.css">
+=======
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Face Detection with Timestamp and Name</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="face-api.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+>>>>>>> b0a1fa49dd4dc7976546c3fc3c1d85338b3c63ad
 </head>
 
 <body>
+<<<<<<< HEAD
     <!-- Navbar -->
     <header>
         <nav>
@@ -65,3 +78,30 @@
 </body>
 
 </html>
+=======
+  <div class="container">
+    <!-- Video element -->
+    <video id="video" width="586" height="426" autoplay=""></video>
+    <!-- Name Input Field -->
+    <div class="input-container">
+      <input type="text" id="nameInput" placeholder="Enter name" />
+    </div> 
+
+    <!-- Button to Show Name with Timestamp -->
+    <div class="button-container">
+        <!-- <button id="notifyButton">Click Me</button> -->
+        <button id="captureButton">Capture Image</button>
+    </div>
+</div>
+
+    <!-- Area to display the notification -->
+    <div id="notification" class="notification"></div>
+
+    <!-- Display captured images and their timestamps -->
+    <div id="capturedData" class="captured-data"></div>
+
+  <script src="script.js"></script>
+  <script src="new.js"></script>
+</body>
+</html>
+>>>>>>> b0a1fa49dd4dc7976546c3fc3c1d85338b3c63ad
